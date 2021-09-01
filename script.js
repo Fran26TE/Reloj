@@ -24,6 +24,9 @@ function reloj() {
     document.getElementById("horas").style.transform = "rotate("+ porcentajeHoras +"deg)";
     document.getElementById("minutos").style.transform = "rotate("+ porcentajeMinutos +"deg)";
     document.getElementById("segundos").style.transform = "rotate("+ porcentajeSegundos +"deg)";
+
+    // Añade al parrafo el resultado de las horas, minutos y segundos
+    document.getElementById("horaDigital").innerHTML = horas + ":" + minutos + ":" + segundos; 
  
 }
 
