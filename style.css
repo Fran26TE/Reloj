@@ -1,0 +1,25 @@
+.reloj {
+    padding: 80px;
+    background-image: url("fondoHoras.png");
+    background-color: #ededed;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 10px solid #333333;
+    display: flex;
+    margin: auto;
+}
+
+.reloj img {
+    position: relative;
+    height: 300px;
+}
+
+.reloj #minutos {
+    position: absolute;
+}
+
+.reloj #segundos {
+    position: absolute;
+}
