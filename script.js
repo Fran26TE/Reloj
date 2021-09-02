@@ -16,13 +16,13 @@ function reloj() {
     document.getElementById("segundos").style.transform = "rotate(" + anguloSegundos + "deg)";
 
     // Evitar números individuales
-    if(horas<10){
+    if (horas < 10) {
         horas = "0" + horas;
     }
-    if(minutos<10){
+    if (minutos < 10) {
         minutos = "0" + minutos;
     }
-    if(segundos<10){
+    if (segundos < 10) {
         segundos = "0" + segundos;
     }
 
