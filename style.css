@@ -1,3 +1,7 @@
+body {
+    background-color: #aaaaaa;
+}
+
 .reloj {
     padding: 80px;
     background-image: url("fondoHoras.png");
@@ -27,22 +31,27 @@
     position: absolute;
 }
 
-.digital {
-    text-align: center;
-    width: 300px;
-    margin: auto;
-    background-color: rgba(50, 50, 50, 0.9);
-    color: #a8d2ff;
-    border: solid 1px #55a1f2;
-    border-radius: 15px;
+@font-face {
+    font-family: "DS-Digital";
+    src: url("DS-DIGII.TTF") format('truetype');
+}
 
+.digital {
+    font-family: "DS-Digital";
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: #d1d9ff;
+    border-radius: 15px;
+    border: solid 3px #a1baff;
+    box-shadow: 0px 0px 30px #ffffff;
 }
 
 .digital #horaDigital {
-    font-family: monospace, monaco;
-    font-size: 50px;
-    
-    text-shadow: 0px 0px 10px #55a1f2;
+    font-size: 90px;
+    text-shadow: 0px 0px 15px #799dff;
 }
 
 
