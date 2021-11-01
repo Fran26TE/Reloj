@@ -32,4 +32,4 @@ function reloj() {
 }
 
 // Llama a la función reloj cada 1 segundo
-setInterval(reloj, 1000);
+setInterval(reloj, 1);
